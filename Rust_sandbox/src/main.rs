@@ -3,27 +3,22 @@ mod var;
 mod types;
 mod string;
 mod tuples;
+mod arrays;
+mod vectors;
 
 fn main() {
-    println!("");
-    println!("---output from print.rs---");
-    println!("");
+    println!("\n---output from print.rs---\n");
     print::run(); //calling function "run" from module "print" using (::)
-    println!("");
-    println!("---output from var.rs---");
-    println!("");
+    println!("\n---output from var.rs---\n");
     var::run();
-    println!("");
-    println!("---output from types.rs---");
-    println!("");
+    println!("\n---output from types.rs---\n");
     types::run();
-    println!("");
-    println!("---output from string.rs---");
-    println!("");
+    println!("\n---output from string.rs---\n");
     string::run();
-    println!("");
-    println!("---output from tuples.rs---");
-    println!("");
+    println!("\n---output from tuples.rs---\n");
     tuples::run();
-    println!("");
+    println!("\n---output from arrays.rs---\n");
+    arrays::run();
+    println!("\n---output from vectors.rs---\n");
+    vectors::run();
 }
