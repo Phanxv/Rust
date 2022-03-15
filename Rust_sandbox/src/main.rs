@@ -5,6 +5,10 @@ mod string;
 mod tuples;
 mod arrays;
 mod vectors;
+mod conditionnals;
+mod functions;
+mod loops;
+mod pointer_ref;
 
 fn main() {
     println!("\n---output from print.rs---\n");
@@ -21,4 +25,12 @@ fn main() {
     arrays::run();
     println!("\n---output from vectors.rs---\n");
     vectors::run();
+    println!("\n---output from conditionals.rs---\n");
+    conditionnals::run();
+    println!("\n---output from loops.rs---\n");
+    loops::run();
+    println!("\n---output from functions.rs---\n");
+    functions::run();
+    println!("\n---output from pointer_ref.rs---\n");
+    pointer_ref::run();
 }
