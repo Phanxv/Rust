@@ -9,6 +9,9 @@ mod conditionnals;
 mod functions;
 mod loops;
 mod pointer_ref;
+mod structs;
+mod enums;
+mod cli;
 
 fn main() {
     println!("\n---output from print.rs---\n");
@@ -33,4 +36,10 @@ fn main() {
     functions::run();
     println!("\n---output from pointer_ref.rs---\n");
     pointer_ref::run();
+    println!("\n---output from structs.rs---\n");
+    structs::run();
+    println!("\n---output from enums.rs---\n");
+    enums::run();
+    println!("\n---output from cli.rs---\n");
+    cli::run();
 }

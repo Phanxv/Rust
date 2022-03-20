@@ -10,5 +10,5 @@ pub fn run(){
     let vec1: Vec<i32> = vec![1,2,3,4,5];
     let vec2 = &vec1;
     println!("data in vec1 & vec2 : {:?}",(&vec1,&vec2));
-
+    
 }
