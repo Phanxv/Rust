@@ -40,6 +40,6 @@ fn main() {
     structs::run();
     println!("\n---output from enums.rs---\n");
     enums::run();
-    println!("\n---output from cli.rs---\n");
-    cli::run();
+    /*println!("\n---output from cli.rs---\n");
+    cli::run();*/
 }
